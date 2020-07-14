@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="64" height="48" tilewidth="32" tileheight="32" infinite="0" backgroundcolor="#000000" nextlayerid="3" nextobjectid="18">
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32" tilecount="5" columns="5">
+  <image source="tiles.png" width="160" height="32"/>
+ </tileset>
+ <layer id="1" name="background" width="64" height="48">
+  <data encoding="base64" compression="zlib">
+   eAHtVomKxTAI7B7v/395K8vAIMZojtK0EYLGe2JC+zmO4/PydcJ/JWHurwR/gt74/89gz/+dJ8D3HzL4G04EWH9PsLygF876q+TM2ff0BJw/Z8E7rQz+nr6BP1PvSb4b/xrfP+uNj7iHe/5rzD87a+u+iE7TyPmXamb1useWfemboHONxF+qmdXrHnlvnSXbs/JI/Nnad/C/I35rxqKbQXfEPwNnKeeq+K07UsLo6VfF72HK2Db+Z/7/RO9AdP7We4voon20+lk9lHLJf4imKP7sPwz8dT1vb2HROi++xRbF35I7G4Mz83g2Z83/Tvhrvc6wX41/1n3WeWVvEfxgA/4Sh98oru/2qLyteQT3d2GJ7em08a89f31H8b6Ze3eY5y+yXrVY7d+z92p9ecYOm/SL9y9yhjgWOVp5tnamT8+XMWR74FjBLfue5fU5y8YYRM4QxwJ/Jt7y1d/H6F7n4vcPWfvInjHcAb/VY0Qn599CGfziqxe/d23T+5b+ZsdIj8Agskfsi5gor+X26s60MaZaj+wbxQ2/Wu4SRonjVfIr6fH2mbMvY6r1yL7AFeW13NwTy1xTZF7s1yrr/F4e9o3ihp/EtlCppuj16s2v81l74MlyK1dUF6nl5fLOReIi+Vf18c4FtlWx7b6ffXf3fK+Z7x+FEwzh
+  </data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="player" type="player" x="96" y="441.252" width="63.7028" height="70.7479"/>
+  <object id="2" name="monster" type="monster" x="64" y="192" width="32" height="32">
+   <properties>
+    <property name="maxdx" value="10"/>
+    <property name="right" value="true"/>
+   </properties>
+  </object>
+  <object id="3" name="monster" type="monster" x="1120" y="416" width="32" height="32">
+   <properties>
+    <property name="left" value="true"/>
+    <property name="maxdx" value="4"/>
+   </properties>
+  </object>
+  <object id="4" name="monster" type="monster" x="1632" y="832" width="32" height="32">
+   <properties>
+    <property name="left" value="true"/>
+    <property name="maxdx" value="4"/>
+   </properties>
+  </object>
+  <object id="5" name="monster" type="monster" x="1056" y="1312" width="32" height="32">
+   <properties>
+    <property name="maxdx" value="6"/>
+    <property name="right" value="true"/>
+   </properties>
+  </object>
+  <object id="6" name="monster" type="monster" x="640" y="992" width="32" height="32">
+   <properties>
+    <property name="left" value="true"/>
+    <property name="maxdx" value="4"/>
+   </properties>
+  </object>
+  <object id="7" name="treasure" type="treasure" x="192" y="864" width="32" height="32"/>
+  <object id="8" name="treasure" type="treasure" x="96" y="1312" width="32" height="32"/>
+  <object id="9" name="treasure" type="treasure" x="1856" y="384" width="32" height="32"/>
+  <object id="10" name="treasure" type="treasure" x="704" y="416" width="32" height="32"/>
+  <object id="11" name="treasure" type="treasure" x="1681.06" y="181.432" width="32" height="32"/>
+  <object id="12" name="treasure" type="treasure" x="608" y="1152" width="32" height="32"/>
+  <object id="13" name="monster" type="monster" x="1216" y="736" width="32" height="32">
+   <properties>
+    <property name="maxdx" value="10"/>
+    <property name="right" value="true"/>
+   </properties>
+  </object>
+  <object id="14" name="monster" type="monster" x="1856" y="1344" width="32" height="32">
+   <properties>
+    <property name="maxdx" value="10"/>
+    <property name="right" value="true"/>
+   </properties>
+  </object>
+  <object id="16" name="treasure" type="treasure" x="32" y="192" width="32" height="32"/>
+  <object id="17" name="treasure" type="treasure" x="1984" y="1344" width="32" height="32"/>
+ </objectgroup>
+</map>
